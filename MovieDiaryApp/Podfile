@@ -6,10 +6,11 @@ target 'MovieDiaryApp' do
   use_frameworks!
 
   # Pods for MovieDiaryApp
-    pod 'Alamofire'
+   
     pod 'Kingfisher'
     pod 'ObjectMapper'
     pod 'RealmSwift'
+    pod 'Alamofire', '~> 5.0.0-rc.3'
 
   target 'MovieDiaryAppTests' do
     inherit! :search_paths
